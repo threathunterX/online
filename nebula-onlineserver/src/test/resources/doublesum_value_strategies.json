@@ -1,0 +1,43 @@
+{
+  "status": 0,
+  "msg": "ok",
+  "values": [
+    {
+      "tags": [
+        "爬虫"
+      ],
+      "app": "nebula",
+      "expire": 1641091020091,
+      "checkpoints": "",
+      "ttl": 300,
+      "category": "VISITOR",
+      "remark": "IP高频http访问",
+      "name": "visit_H_5m_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 0,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "爬虫",
+        "撞库"
+      ],
+      "app": "nebula",
+      "expire": 1672541230854,
+      "checkpoints": "",
+      "ttl": 300,
+      "category": "VISITOR",
+      "remark": "IP非GET请求次数过多",
+      "name": "visit_H_method_5m_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 0,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "topValue": false,
+  "remark": "http动态资源访问",
+  "srcVariablesID": [],
+  "name": "ACCOUNT_REFERRALCODE_CREATE",
+  "config": {},
+  "app": "nebula",
+  "internal": true,
+  "module": "base",
+  "properties": [
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "id"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "pid"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "c_ip"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "sid"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "uid"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "did"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "platform"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "page"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "notices"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "long",
+      "name": "c_port"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "long",
+      "name": "c_bytes"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "c_body"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "c_type"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "s_ip"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "long",
+      "name": "s_port"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "long",
+      "name": "s_bytes"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "s_body"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "s_type"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "host"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "uri_stem"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "uri_query"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "referer"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "method"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "long",
+      "name": "status"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "cookie"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "useragent"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "xforward"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "long",
+      "name": "request_time"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "request_type"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "referer_hit"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "geo_city"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "user_name"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "referralcode"
+    },
+    {
+      "identifier": [
+        "nebula",
+        "ACCOUNT_REFERRALCODE_CREATE"
+      ],
+      "type": "string",
+      "name": "code_type"
+    }
+  ],
+  "priority": 0,
+  "chineseName": "",
+  "keyTopValue": false,
+  "expire": 0,
+  "ttl": 300,
+  "type": "event",
+  "dimension": "",
+  "valueType": "double",
+  "srcEventID": [
+    "nebula",
+    "ACCOUNT_REFERRALCODE_CREATE"
+  ]
+}

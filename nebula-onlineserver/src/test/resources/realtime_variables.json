@@ -1,0 +1,390 @@
+[
+  {
+    "module": "base",
+    "app": "nebula",
+    "name": "HTTP_DYNAMIC",
+    "remark": "用户访问事件",
+    "visible_name": "",
+    "dimension": "",
+    "status": "enable",
+    "type": "event",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {},
+    "period": {},
+    "function": {},
+    "groupbykeys": []
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "HTTP_CLICK",
+    "type": "filter",
+    "remark": "点击",
+    "visible_name": "间隔",
+    "dimension": "",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {
+      "condition": [
+        {
+          "object": "method",
+          "operation": "==",
+          "value": "POST",
+          "type": "simple"
+        },
+        {
+          "condition": [
+            {
+              "object": "method",
+              "operation": "==",
+              "value": "GET",
+              "type": "simple"
+            },
+            {
+              "object": "s_type",
+              "operation": "contains",
+              "value": "text/html",
+              "type": "simple"
+            },
+            {
+              "object": "s_bytes",
+              "operation": ">",
+              "value": "1000",
+              "type": "simple"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
+    },
+    "period": {},
+    "function": {
+    },
+    "groupbykeys": []
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "__highvisit_trigger__",
+    "type": "filter",
+    "remark": "internal variable",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {
+      "object": "c_ip",
+      "operation": "contains",
+      "value": ".",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+    },
+    "groupbykeys": []
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "__highvisit_collector__",
+    "type": "collector",
+    "remark": "internal variable",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "__highvisit_trigger__"
+      },
+      {
+        "app": "nebula",
+        "name": "ip__dynamic_count"
+      }
+    ],
+    "filter": {
+      "source": "ip__dynamic_count",
+      "object": "value",
+      "operation": ">",
+      "value": "5",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+      "method": "setblacklist",
+      "param": "highvisit_strategy",
+      "config": {
+        "trigger": "__highvisit_trigger__"
+      }
+    },
+    "groupbykeys": ["c_ip"]
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "__clicktoofast_trigger__",
+    "type": "filter",
+    "remark": "internal variable",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {
+      "object": "c_ip",
+      "operation": "contains",
+      "value": ".",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+    },
+    "groupbykeys": []
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "__clicktoofast_collector__",
+    "type": "collector",
+    "remark": "internal variable",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "__clicktoofast_trigger__"
+      },
+      {
+        "app": "nebula",
+        "name": "ip_click_diff"
+      }
+    ],
+    "filter": {
+      "source": "ip_click_diff",
+      "object": "value",
+      "operation": "<",
+      "value": "1000",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+      "method": "setblacklist",
+      "param": "clicktoofast_strategy",
+      "config": {
+        "trigger": "__clicktoofast_trigger__"
+      }
+    },
+    "groupbykeys": ["c_ip"]
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "__visitposthighratio_trigger__",
+    "type": "filter",
+    "remark": "internal variable",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {
+      "object": "c_ip",
+      "operation": "contains",
+      "value": ".",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+    },
+    "groupbykeys": []
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "__visitposthighratio_collector__",
+    "type": "collector",
+    "remark": "internal variable",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "__visitposthighratio_trigger__"
+      },
+      {
+        "app": "nebula",
+        "name": "ip_get_ratio"
+      }
+    ],
+    "filter": {
+      "condition": [
+        {
+          "source": "ip_get_ratio",
+          "object": "value",
+          "operation": "<",
+          "value": "0.4",
+          "type": "simple"
+        },
+        {
+          "source": "ip_get_ratio",
+          "object": "value",
+          "operation": ">",
+          "value": "0",
+          "type": "simple"
+        }
+      ],
+      "type": "and"
+    },
+    "period": {},
+    "function": {
+      "method": "setblacklist",
+      "param": "visitposthighratio_strategy",
+      "config": {
+        "trigger": "__visitposthighratio_trigger__"
+      }
+    },
+    "groupbykeys": ["c_ip"]
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "ip__dynamic_count",
+    "type": "aggregate",
+    "remark": "",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {
+    },
+    "period": {},
+    "function": {
+      "method": "count",
+      "object": "c_ip"
+    },
+    "groupbykeys": [
+      "c_ip"
+    ]
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "ip__dynamic_get_count",
+    "type": "aggregate",
+    "remark": "",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_DYNAMIC"
+      }
+    ],
+    "filter": {
+      "object": "method",
+      "operation": "==",
+      "value": "GET",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+      "method": "count",
+      "object": "c_ip"
+    },
+    "groupbykeys": [
+      "c_ip"
+    ]
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "ip_get_ratio",
+    "type": "dual",
+    "remark": "",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "ip__dynamic_get_count"
+      },
+      {
+        "app": "nebula",
+        "name": "ip__dynamic_count"
+      }
+    ],
+    "filter": {
+    },
+    "period": {},
+    "function": {
+      "method": "/",
+      "object": "value"
+    },
+    "groupbykeys": [
+      "c_ip"
+    ]
+  },
+  {
+    "module": "realtime",
+    "app": "nebula",
+    "name": "ip_click_diff",
+    "type": "sequence",
+    "remark": "",
+    "visible_name": "",
+    "dimension": "ip",
+    "status": "enable",
+    "source": [
+      {
+        "app": "nebula",
+        "name": "HTTP_CLICK"
+      }
+    ],
+    "filter": {
+      "object": "method",
+      "operation": "==",
+      "value": "POST",
+      "type": "simple"
+    },
+    "period": {},
+    "function": {
+      "method": "-",
+      "object": "timestamp"
+    },
+    "groupbykeys": [
+      "c_ip"
+    ]
+  }
+]

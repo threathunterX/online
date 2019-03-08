@@ -1,0 +1,41 @@
+{
+    "status": 0,
+    "msg": "ok",
+    "values": [
+        {
+            "tags": [
+                "爬虫"
+            ],
+            "app": "nebula",
+            "expire": 1630649063053,
+            "checkpoints": "",
+            "category": "ACCOUNT",
+            "remark": "某个用户访问页面A而不访问页面B",
+            "name": "visit_page_A_no_B_user",
+            "checkvalue": "uid",
+            "decision": "review",
+            "score": 43,
+            "checktype": "USER",
+            "test": true,
+            "scope": "realtime"
+        },
+        {
+            "tags": [
+                "自动签到"
+            ],
+            "app": "nebula",
+            "expire": 1593486825000,
+            "checkpoints": "",
+            "ttl": 300,
+            "category": "ACCOUNT",
+            "remark": "同设备登录和签到时间间隔很短",
+            "name": "sign_short_interval_did",
+            "checkvalue": "did",
+            "decision": "review",
+            "score": 0,
+            "checktype": "DeviceID",
+            "test": true,
+            "scope": "realtime"
+        }
+    ]
+}

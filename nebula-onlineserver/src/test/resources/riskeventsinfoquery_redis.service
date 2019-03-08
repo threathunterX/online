@@ -1,0 +1,11 @@
+{
+  "name": "riskeventsinfoquery",
+  "callmode": "rpc",
+  "delivermode": "shuffle",
+  "serverimpl": "redis",
+  "coder": "mail",
+  "options": {
+    "cdc": "sh",
+    "sdc": "sh"
+  }
+}

@@ -1,0 +1,2866 @@
+{
+  "status": 0,
+  "msg": "ok",
+  "values": [
+    {
+      "topValue": false,
+      "remark": "http动态资源访问",
+      "srcVariablesID": [],
+      "name": "HTTP_DYNAMIC",
+      "config": {},
+      "app": "nebula",
+      "internal": true,
+      "module": "base",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "id"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "pid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "sid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "uid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "did"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "platform"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "page"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "notices"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "long",
+          "name": "c_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "long",
+          "name": "c_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "c_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "c_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "s_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "long",
+          "name": "s_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "long",
+          "name": "s_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "s_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "s_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "host"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "uri_stem"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "uri_query"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "referer"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "method"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "long",
+          "name": "status"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "cookie"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "useragent"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "xforward"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "long",
+          "name": "request_time"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "request_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "referer_hit"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_DYNAMIC"
+          ],
+          "type": "string",
+          "name": "geo_city"
+        }
+      ],
+      "priority": 0,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "event",
+      "dimension": "",
+      "valueType": "double",
+      "srcEventID": [
+        "nebula",
+        "HTTP_DYNAMIC"
+      ]
+    },
+    {
+      "topValue": false,
+      "remark": "http静态资源访问",
+      "srcVariablesID": [],
+      "name": "HTTP_STATIC",
+      "config": {},
+      "app": "nebula",
+      "internal": true,
+      "module": "base",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "id"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "pid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "sid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "uid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "did"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "platform"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "page"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "notices"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "long",
+          "name": "c_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "long",
+          "name": "c_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "c_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "c_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "s_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "long",
+          "name": "s_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "long",
+          "name": "s_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "s_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "s_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "host"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "uri_stem"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "uri_query"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "referer"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "method"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "long",
+          "name": "status"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "cookie"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "useragent"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "xforward"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "long",
+          "name": "request_time"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "request_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "referer_hit"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "HTTP_STATIC"
+          ],
+          "type": "string",
+          "name": "geo_city"
+        }
+      ],
+      "priority": 0,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "event",
+      "dimension": "",
+      "valueType": "double",
+      "srcEventID": [
+        "nebula",
+        "HTTP_STATIC"
+      ]
+    },
+    {
+      "topValue": true,
+      "remark": "单个ip5分钟动态资源访问量总和",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "HTTP_DYNAMIC"
+        ]
+      ],
+      "name": "ip__visit__count_dynamic__5m__rt",
+      "config": {
+        "reductions": [
+          {
+            "srcProperty": {
+              "identifier": [],
+              "type": "double",
+              "name": "value"
+            },
+            "destProperty": {
+              "identifier": [],
+              "type": "double",
+              "name": "value"
+            },
+            "type": "doublesum"
+          }
+        ],
+        "groupedKeys": [
+          {
+            "identifier": [],
+            "type": "string",
+            "name": "c_ip"
+          }
+        ],
+        "aggregateType": "realtime",
+        "period": 300,
+        "condition": null
+      },
+      "app": "nebula",
+      "internal": false,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "ip__visit__count_dynamic__5m__rt"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        }
+      ],
+      "priority": 10,
+      "chineseName": "IP动态资源访问总数[5m]",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "aggregate",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": true,
+      "remark": "单个ip5分钟静态资源访问量总和",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "HTTP_STATIC"
+        ]
+      ],
+      "name": "ip__visit__count_static__5m__rt",
+      "config": {
+        "reductions": [
+          {
+            "srcProperty": {
+              "identifier": [],
+              "type": "double",
+              "name": "value"
+            },
+            "destProperty": {
+              "identifier": [],
+              "type": "double",
+              "name": "value"
+            },
+            "type": "doublesum"
+          }
+        ],
+        "groupedKeys": [
+          {
+            "identifier": [],
+            "type": "string",
+            "name": "c_ip"
+          }
+        ],
+        "aggregateType": "realtime",
+        "period": 300,
+        "condition": null
+      },
+      "app": "nebula",
+      "internal": false,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "ip__visit__count_static__5m__rt"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        }
+      ],
+      "priority": 10,
+      "chineseName": "IP静态资源访问总数[5m]",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "aggregate",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": false,
+      "remark": "单个ip5分钟访问量总和",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "ip__visit__count_dynamic__5m__rt"
+        ],
+        [
+          "nebula",
+          "ip__visit__count_static__5m__rt"
+        ]
+      ],
+      "name": "ip__visit__count__5m__rt",
+      "config": {
+        "groupedKeys": [
+          {
+            "identifier": [
+              "nebula",
+              "ip__visit__count_dynamic__5m__rt"
+            ],
+            "type": "string",
+            "name": "c_ip"
+          }
+        ],
+        "secondVariable": [
+          "nebula",
+          "ip__visit__count_static__5m__rt"
+        ],
+        "firstVariable": [
+          "nebula",
+          "ip__visit__count_dynamic__5m__rt"
+        ],
+        "secondMayBeNull": true,
+        "valueProperty": {
+          "identifier": [
+            "nebula",
+            "ip__visit__count_dynamic__5m__rt"
+          ],
+          "type": "double",
+          "name": "value"
+        },
+        "operation": "+",
+        "window": 300,
+        "firstMayBeNull": false
+      },
+      "app": "nebula",
+      "internal": false,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "ip__visit__count__5m__rt"
+          ],
+          "type": "double",
+          "name": "ip__visit__count_dynamic__5m__rt"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "ip__visit__count__5m__rt"
+          ],
+          "type": "double",
+          "name": "ip__visit__count_static__5m__rt"
+        }
+      ],
+      "priority": 11,
+      "chineseName": "IP访问总数[5m]",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "dualvar",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": false,
+      "remark": "ip trigger for strategy visit_H_5m_ip",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "HTTP_DYNAMIC"
+        ]
+      ],
+      "name": "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt",
+      "config": {
+        "mappings": [
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "c_ip"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "c_ip"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "id"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "id"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "pid"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "pid"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "sid"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "sid"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "uid"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "uid"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "did"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "did"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "platform"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "platform"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "page"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "page"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "notices"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "notices"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "c_port"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "c_port"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "c_bytes"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "c_bytes"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "c_body"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "c_body"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "c_type"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "c_type"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "s_ip"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "s_ip"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "s_port"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "s_port"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "s_bytes"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "s_bytes"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "s_body"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "s_body"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "s_type"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "s_type"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "host"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "host"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "uri_stem"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "uri_stem"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "uri_query"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "uri_query"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "referer"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "referer"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "method"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "method"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "status"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "status"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "cookie"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "cookie"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "useragent"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "useragent"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "xforward"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "xforward"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "request_time"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "request_time"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "request_type"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "request_type"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "referer_hit"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "referer_hit"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "geo_city"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "geo_city"
+            },
+            "type": "direct"
+          }
+        ],
+        "condition": {
+          "conditions": [
+            {
+              "srcProperty": {
+                "identifier": [
+                  "nebula",
+                  "HTTP_DYNAMIC"
+                ],
+                "type": "string",
+                "name": "c_ip"
+              },
+              "type": "stringcontains",
+              "param": "."
+            }
+          ],
+          "type": "and"
+        }
+      },
+      "app": "nebula",
+      "internal": true,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "key"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "double",
+          "name": "value"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "id"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "pid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "sid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "uid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "did"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "platform"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "page"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "notices"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "c_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "c_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "c_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "c_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "s_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "s_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "s_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "s_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "s_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "host"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "uri_stem"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "uri_query"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "referer"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "method"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "status"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "cookie"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "useragent"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "xforward"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "request_time"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "request_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "referer_hit"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "geo_city"
+        }
+      ],
+      "priority": 100,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "filter",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": false,
+      "remark": "collector for strategy visit_H_5m_ip",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "ip__visit__count__5m__rt"
+        ],
+        [
+          "nebula",
+          "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+        ]
+      ],
+      "name": "_ip__strategy__1484625765434__76697369745F485F356D5F6970__collect__rt",
+      "config": {
+        "mappings": [],
+        "window": 300,
+        "trigger": [
+          "nebula",
+          "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+        ],
+        "onlyValueNeeded": true,
+        "collectedVars": [
+          {
+            "keyField": "c_ip",
+            "collectedVar": [
+              "nebula",
+              "ip__visit__count__5m__rt"
+            ]
+          }
+        ],
+        "strategyName": "visit_H_5m_ip",
+        "condition": {
+          "conditions": [
+            {
+              "srcProperty": {
+                "identifier": [
+                  "nebula",
+                  "ip__visit__count__5m__rt"
+                ],
+                "type": "double",
+                "name": "value"
+              },
+              "type": "doublebiggerthan",
+              "param": 99
+            }
+          ],
+          "type": "and"
+        }
+      },
+      "app": "nebula",
+      "internal": false,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__collect__rt"
+          ],
+          "type": "double",
+          "name": "ip__visit__count__5m__rt"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1484625765434__76697369745F485F356D5F6970__collect__rt"
+          ],
+          "type": "double",
+          "name": "_ip__strategy__1484625765434__76697369745F485F356D5F6970__trigger__rt"
+        }
+      ],
+      "priority": 101,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "varcollector",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": false,
+      "remark": "ip trigger for strategy visit_H_method_5m_ip",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "HTTP_DYNAMIC"
+        ]
+      ],
+      "name": "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt",
+      "config": {
+        "mappings": [
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "c_ip"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "c_ip"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "id"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "id"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "pid"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "pid"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "sid"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "sid"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "uid"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "uid"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "did"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "did"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "platform"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "platform"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "page"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "page"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "notices"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "notices"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "c_port"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "c_port"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "c_bytes"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "c_bytes"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "c_body"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "c_body"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "c_type"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "c_type"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "s_ip"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "s_ip"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "s_port"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "s_port"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "s_bytes"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "s_bytes"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "s_body"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "s_body"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "s_type"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "s_type"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "host"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "host"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "uri_stem"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "uri_stem"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "uri_query"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "uri_query"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "referer"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "referer"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "method"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "method"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "status"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "status"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "cookie"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "cookie"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "useragent"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "useragent"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "xforward"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "xforward"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "long",
+              "name": "request_time"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "long",
+              "name": "request_time"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "request_type"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "request_type"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "referer_hit"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "referer_hit"
+            },
+            "type": "direct"
+          },
+          {
+            "srcProperty": {
+              "identifier": [
+                "nebula",
+                "HTTP_DYNAMIC"
+              ],
+              "type": "string",
+              "name": "geo_city"
+            },
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+              ],
+              "type": "string",
+              "name": "geo_city"
+            },
+            "type": "direct"
+          }
+        ],
+        "condition": {
+          "conditions": [
+            {
+              "srcProperty": {
+                "identifier": [
+                  "nebula",
+                  "HTTP_DYNAMIC"
+                ],
+                "type": "string",
+                "name": "c_ip"
+              },
+              "type": "stringcontains",
+              "param": "."
+            }
+          ],
+          "type": "and"
+        }
+      },
+      "app": "nebula",
+      "internal": true,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "key"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "double",
+          "name": "value"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "id"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "pid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "sid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "uid"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "did"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "platform"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "page"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "notices"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "c_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "c_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "c_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "c_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "s_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "s_port"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "s_bytes"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "s_body"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "s_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "host"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "uri_stem"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "uri_query"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "referer"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "method"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "status"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "cookie"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "useragent"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "xforward"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "long",
+          "name": "request_time"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "request_type"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "referer_hit"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+          ],
+          "type": "string",
+          "name": "geo_city"
+        }
+      ],
+      "priority": 100,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "filter",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": false,
+      "remark": "temp variable from strategy generation",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "HTTP_DYNAMIC"
+        ]
+      ],
+      "name": "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt",
+      "config": {
+        "reductions": [
+          {
+            "srcProperties": [
+              {
+                "identifier": [
+                  "nebula",
+                  "HTTP_DYNAMIC"
+                ],
+                "type": "string",
+                "name": "c_ip"
+              }
+            ],
+            "destProperty": {
+              "identifier": [
+                "nebula",
+                "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+              ],
+              "type": "double",
+              "name": "value"
+            },
+            "type": "multiplecount"
+          }
+        ],
+        "groupedKeys": [
+          {
+            "identifier": [
+              "nebula",
+              "HTTP_DYNAMIC"
+            ],
+            "type": "string",
+            "name": "c_ip"
+          }
+        ],
+        "aggregateType": "realtime",
+        "period": 300,
+        "condition": {
+          "conditions": [
+            {
+              "srcProperty": {
+                "identifier": [
+                  "nebula",
+                  "HTTP_DYNAMIC"
+                ],
+                "type": "string",
+                "name": "method"
+              },
+              "type": "stringnotequals",
+              "param": "get"
+            }
+          ],
+          "type": "and"
+        }
+      },
+      "app": "nebula",
+      "internal": false,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+          ],
+          "type": "string",
+          "name": "c_ip"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+          ],
+          "type": "string",
+          "name": "key"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+          ],
+          "type": "double",
+          "name": "value"
+        }
+      ],
+      "priority": 99,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "aggregate",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "topValue": false,
+      "remark": "collector for strategy visit_H_method_5m_ip",
+      "srcVariablesID": [
+        [
+          "nebula",
+          "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+        ],
+        [
+          "nebula",
+          "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+        ]
+      ],
+      "name": "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__collect__rt",
+      "config": {
+        "mappings": [],
+        "window": 300,
+        "trigger": [
+          "nebula",
+          "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+        ],
+        "onlyValueNeeded": true,
+        "collectedVars": [
+          {
+            "keyField": "c_ip",
+            "collectedVar": [
+              "nebula",
+              "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+            ]
+          }
+        ],
+        "strategyName": "visit_H_method_5m_ip",
+        "condition": {
+          "conditions": [
+            {
+              "srcProperty": {
+                "identifier": [
+                  "nebula",
+                  "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+                ],
+                "type": "double",
+                "name": "value"
+              },
+              "type": "doublebiggerthan",
+              "param": 50
+            }
+          ],
+          "type": "and"
+        }
+      },
+      "app": "nebula",
+      "internal": false,
+      "module": "realtime",
+      "properties": [
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__collect__rt"
+          ],
+          "type": "double",
+          "name": "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__counter__2__rt"
+        },
+        {
+          "identifier": [
+            "nebula",
+            "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__collect__rt"
+          ],
+          "type": "double",
+          "name": "_ip__strategy__1495180284674__76697369745F485F6D6574686F645F356D5F6970__trigger__rt"
+        }
+      ],
+      "priority": 101,
+      "chineseName": "",
+      "keyTopValue": false,
+      "expire": 0,
+      "ttl": 300,
+      "type": "varcollector",
+      "dimension": "ip",
+      "valueType": "double",
+      "srcEventID": null
+    },
+    {
+      "app": "__all__",
+      "expire": 0,
+      "ttl": 300,
+      "properties": [
+        {
+          "identifier": [
+            "__all__",
+            "_global__variablekeyvalue_request"
+          ],
+          "type": "string",
+          "name": "query"
+        },
+        {
+          "identifier": [
+            "__all__",
+            "_global__variablekeyvalue_request"
+          ],
+          "type": "long",
+          "name": "count"
+        },
+        {
+          "identifier": [
+            "__all__",
+            "_global__variablekeyvalue_request"
+          ],
+          "type": "list",
+          "name": "varnames"
+        },
+        {
+          "identifier": [
+            "__all__",
+            "_global__variablekeyvalue_request"
+          ],
+          "type": "string",
+          "name": "requestid"
+        }
+      ],
+      "keyTopValue": false,
+      "topValue": false,
+      "remark": "variable key value查询请求",
+      "srcVariablesID": [],
+      "name": "_global__variablekeyvalue_request",
+      "config": {},
+      "priority": 0,
+      "internal": true,
+      "type": "event",
+      "srcEventID": [
+        "__all__",
+        "_global__variablekeyvalue_request"
+      ],
+      "chineseName": "XXX",
+      "module": "realtime",
+      "valueType": "double",
+      "dimension": ""
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "tags": [
+      "1"
+    ],
+    "app": "nebula",
+    "expire": 1641026843419,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISIT",
+    "remark": "UID累计修改邮箱次数过多",
+    "name": "highvisit_strategy",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "2"
+    ],
+    "app": "nebula",
+    "expire": 1641032334927,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISIT",
+    "remark": "",
+    "name": "clicktoofast_strategy",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "1"
+    ],
+    "app": "nebula",
+    "expire": 1641020404171,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": "UID1小时内下单多次",
+    "name": "order_H_1h_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 13,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1641120013785,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISIT",
+    "remark": "",
+    "name": "visitposthighratio_strategy",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  }
+]

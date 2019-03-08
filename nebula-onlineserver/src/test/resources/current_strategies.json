@@ -1,0 +1,3105 @@
+[
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_mobile",
+    "name": "IP多次请求下单__不同手机号",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1519868799000,
+    "checkpoints": "",
+    "ttl": 18000,
+    "category": "VISITOR",
+    "remark": "did5分钟内访问400以上的次数大于50次",
+    "name": "visit_H_400_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, product_id",
+    "name": "设备多次请求下单__同一商品",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541069827000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号导出过于频繁",
+    "name": "rd_export_rate_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1538382946000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁查看发布中的职位",
+    "name": "rd_position_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????",
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1538377853000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP搜索已投递职位过于频繁",
+    "name": "rd_rdapply_search_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_address_city ",
+    "name": "IP多次请求下单__不同城市",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, merchant",
+    "name": "设备多次请求下单__不同商户",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541001943000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号查看发布中的职位不加载资源",
+    "name": "rd_position_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543657710000,
+    "checkpoints": "",
+    "ttl": 1800,
+    "category": "ACCOUNT",
+    "remark": "IHR-单IP频繁发布职位",
+    "name": "ihr_jobreult_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 7561947702110,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP访问相同的数据包大小",
+    "name": "visit_S_package_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, product_id",
+    "name": "用户多次请求下单__同一商品",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543385458000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP查看发布中的职位不加载资源",
+    "name": "rd_position_resource",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1590743602000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "通过异常UA判断异常账号",
+    "name": "yifeng_account_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "ngx_lua_waf"
+    ],
+    "app": "nebula",
+    "expire": 1511946643357,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "GET参数中ngx_lua_waf策略补充",
+    "name": "visit_ngx_lua_waf_get_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541070911000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号搜索职位过于频繁",
+    "name": "rd_rdsearch_rate_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1629973102000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "sou-search",
+    "name": "visit_S_sou_searchresult",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, user_name",
+    "name": "用户多次请求下单__不同收货人",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 7561949327620,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP高频http访问",
+    "name": "visit_H_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_address_city ",
+    "name": "用户多次请求下单__不同城市",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541071551000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ACCOUNT",
+    "remark": "passport-单IP访问用户名验重接口过于频繁",
+    "name": "passport_checkregisterhandler_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "yifeng"
+    ],
+    "app": "nebula",
+    "expire": 7561941427295,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "同账号切换ip进行登录和查看简历操作",
+    "name": "yfjl_changeip_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "E成"
+    ],
+    "app": "nebula",
+    "expire": 1601019220000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "e成did-同ua访问search和detail页面",
+    "name": "ihr_e_search_detail_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "??",
+      "其他"
+    ],
+    "app": "nebula",
+    "expire": 1506847047489,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "亿封简历UA",
+    "name": "visit_yfjl_ua_rd",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "恶意扫描"
+    ],
+    "app": "nebula",
+    "expire": 1572589588503,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "访问.asp文件",
+    "name": "visit_access_asp_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 7561949992165,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP大量请求不加载静态资源",
+    "name": "visit_N_staticview_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "关联下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">1 ip in 30min",
+    "name": "用户多设备请求下单",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "撞库"
+    ],
+    "app": "nebula",
+    "expire": 1641116053528,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "IP5分钟内多次登录",
+    "name": "login_H_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "关联下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3 用户 in 30min",
+    "name": "IP多用户请求下单",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "yifeng"
+    ],
+    "app": "nebula",
+    "expire": 7561909497080,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "",
+    "name": "visit_yfjl_nouid_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "SQL注入"
+    ],
+    "app": "nebula",
+    "expire": 1511667864319,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "GET请求中包含SQL的符号",
+    "name": "visit_sql_injection_hardcore_get_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫",
+      "撞库"
+    ],
+    "app": "nebula",
+    "expire": 7561936683780,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP高POST请求比例",
+    "name": "visit_H_post%_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "取消订单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3 in 30min distinct orderid",
+    "name": "IP多次取消订单",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1629973102000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "C端简历投递",
+    "name": "xiaoyuan_sociaijobpost _csrf",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫",
+      "撞库"
+    ],
+    "app": "nebula",
+    "expire": 1672541230854,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP非GET请求次数过多",
+    "name": "visit_H_method_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1672540882527,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP访问网站不存在合理路径(PC端)",
+    "name": "visit_N_referer_hit_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "账号异常"
+    ],
+    "app": "nebula",
+    "expire": 1638260024041,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "UID报警次数大于50次",
+    "name": "account_H_alarm_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "profile"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541071551000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP搜索职位过于频繁",
+    "name": "rd_rdsearch_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 7561950779565,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP请求单动态接口",
+    "name": "visit_S_api_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, order_money_amount<= 100",
+    "name": "用户多次请求下单__金额较低",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543657710000,
+    "checkpoints": "",
+    "ttl": 1800,
+    "category": "ACCOUNT",
+    "remark": "IHR-单IP频繁刷新职位",
+    "name": "ihr_refresh_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "关联下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">1 用户 in 30min",
+    "name": "设备多用户请求下单",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_address_city",
+    "name": "设备多次请求下单__同一城市",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "下单不支付"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">4 in 30min no pay",
+    "name": "用户下单不支付",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541044693000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号频繁访问职位页面",
+    "name": "rd_viewone_1_rate_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "特殊下单"
+    ],
+    "app": "nebula",
+    "expire": 1672468664362,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">3 order, F=1 in 5m",
+    "name": "用户高频请求下单__全部失败5m",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541038131000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP浏览简历不加载资源",
+    "name": "rd_viewone2_resource",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "SQL注入"
+    ],
+    "app": "nebula",
+    "expire": 1543029329330,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "POST参数中包含SQL语句特征",
+    "name": "visit_sql_injection_post_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, product_id",
+    "name": "IP多次请求下单__不同商品",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1538382672000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁访问职位页面",
+    "name": "rd_viewone_2_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "下单不支付"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">4 in 30min no pay",
+    "name": "IP下单不支付",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1641003625943,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP大量异常状态",
+    "name": "visit_H_AB_status_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1506847274323,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁访问emailim",
+    "name": "rd_emailim_resource_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, merchant",
+    "name": "IP多次请求下单__不同商户",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, order_money_amount<= 100",
+    "name": "IP多次请求下单__金额较低",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????"
+    ],
+    "app": "nebula",
+    "expire": 1538372992000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "ihr双11获取刷新卷页面访问频繁",
+    "name": "ihr_1111_receive_rate",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "午夜下单"
+    ],
+    "app": "nebula",
+    "expire": 1609569979438,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2,000, 0~6",
+    "name": "用户深夜请求下单金额过大",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "目录遍历"
+    ],
+    "app": "nebula",
+    "expire": 1543389630594,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "POST参数中包含目录遍历的特征",
+    "name": "visit_directory_traversal_post_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "高频下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3, <=4页面 in 30min",
+    "name": "用户请求下单行为单一",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_address_city ",
+    "name": "设备多次请求下单__不同城市",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_address_city ",
+    "name": "用户多次请求下单__同一城市",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_address_detail",
+    "name": "设备多次请求下单__不同地址",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_address_detail",
+    "name": "用户多次请求下单__同一地址",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "关联下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">1 ip in 30min",
+    "name": "设备多IP请求下单",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, order_money_amount",
+    "name": "用户多次请求下单__不同金额",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541070458000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号搜索已投递职位过于频繁",
+    "name": "rd_rdapply_search_rate_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, user_name",
+    "name": "IP多次请求下单__不同收货人",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_address_detail",
+    "name": "IP多次请求下单__同一地址",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "ngx_lua_waf"
+    ],
+    "app": "nebula",
+    "expire": 1543398183037,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "POST参数中ngx_lua_waf策略补充",
+    "name": "visit_ngx_lua_waf_post_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "高频下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">5 in 30min",
+    "name": "IP多次请求下单",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????"
+    ],
+    "app": "nebula",
+    "expire": 1538372992000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP访问验证码页面过于频繁",
+    "name": "captcha_check_rate",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541071551000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ACCOUNT",
+    "remark": "m站-单IP搜索职位过于频繁",
+    "name": "m_search_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "yifeng"
+    ],
+    "app": "nebula",
+    "expire": 1596004745000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "116.24.250.40",
+    "name": "yifeng_ip_relate_uid",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_mobile",
+    "name": "设备多次请求下单__不同手机号",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, user_name",
+    "name": "设备多次请求下单__不同收货人",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1672543086878,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP高GET请求比例",
+    "name": "visit_H_get%_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, product_id",
+    "name": "设备多次请求下单__不同商品",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, user_name",
+    "name": "设备多次请求下单__同一地址",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "特殊下单"
+    ],
+    "app": "nebula",
+    "expire": 1641026203555,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 5m, merchant",
+    "name": "用户高频请求下单__同一商户5m",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541051387000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP搜索职位不加载资源",
+    "name": "rd_rdsearch_resource",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "特殊下单"
+    ],
+    "app": "nebula",
+    "expire": 1704528330197,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">3 cancel in 5m",
+    "name": "用户高频请求取消订单5m",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1609554158776,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP请求页面停留时间过短(PC端)",
+    "name": "visit_S_pagestay_5m_ip__pc",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, merchant",
+    "name": "设备多次请求下单__同一商户",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 7561916041290,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "api_zhaopin_com搜索爬虫",
+    "name": "visit_S_apizhaopin_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1609553885794,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP大量404请求",
+    "name": "visit_H_404_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541069006000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号频繁访问职位页面 同一账号",
+    "name": "rd_viewone_2_rate_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, user_name",
+    "name": "设备多次请求下单__同收货人",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "E成"
+    ],
+    "app": "nebula",
+    "expire": 7561938701140,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "observe---e成did-仅访问search和detail页面",
+    "name": "ihr_e_search_detail_did_test",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, order_money_amount<= 100",
+    "name": "设备多次请求下单__金额较低",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "特殊下单"
+    ],
+    "app": "nebula",
+    "expire": 1672472457461,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">3 order, >1 receiver_geo",
+    "name": "用户高频请求下单__不同城市5m",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543658623000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP搜索职位不加载资源2",
+    "name": "rd_rdsearch_redirecttord",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_mobile",
+    "name": "用户多次请求下单__同手机号",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1641119910506,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "UID累计关联Useragent过多",
+    "name": "account_M_UA_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "profile"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541058470000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "RD-单账号发布职位不加载资源",
+    "name": "rd_jobreult_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_address_detail",
+    "name": "用户多次请求下单__不同地址",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "取消订单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3 in 30min distinct orderid",
+    "name": "用户多次取消订单",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_mobile",
+    "name": "用户多次请求下单__不同手机号",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, receiver_address_detail",
+    "name": "IP多次请求下单__不同地址",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "E成"
+    ],
+    "app": "nebula",
+    "expire": 7561944052690,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "observe---e成did-ua",
+    "name": "ihr_e_ua_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, order_money_amount > 100",
+    "name": "IP多次请求下单__金额较高",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541037022000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP导出简历不加载资源",
+    "name": "rd_export_resource",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "RFI"
+    ],
+    "app": "nebula",
+    "expire": 1543377535967,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "POST参数中包含rfi远程文件包含的特征",
+    "name": "visit_rfi_post_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541058470000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "IHR-单账号发布职位不加载资源",
+    "name": "ihr_jobreult_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1629973102000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "B端修改密码",
+    "name": "xiaoyuan_systemsetting_csrf",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "高频下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3, <=4页面 in 30min",
+    "name": "IP请求下单行为单一",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, order_money_amount",
+    "name": "设备多次请求下单__不同金额",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1538362132000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": " 单IP登录不加载资源",
+    "name": "rd_login_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1641121214738,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "DID5分钟内关联多个IP",
+    "name": "account_M_ip_5m_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, merchant",
+    "name": "IP多次请求下单__同一商户",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1538380491000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁访问已投递职位页面",
+    "name": "rd_viewone_1_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????",
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1509526694817,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "账号访问验证码页面未进行校验",
+    "name": "captcha_check_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "关联下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">1 ip in 30min",
+    "name": "用户多IP请求下单",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541058470000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号刷新职位不加载资源",
+    "name": "rd_refresh_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1672453521534,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP请求页面停留时间过短(APP端)",
+    "name": "visit_S_pagestay_5m_ip__app",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1553772566000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁访问已投递职位页面(night)",
+    "name": "rd_viewone_1_rate_night_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "??",
+      "其他"
+    ],
+    "app": "nebula",
+    "expire": 1506847047489,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "亿封简历UA",
+    "name": "visit_yfjl_ua",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, merchant ",
+    "name": "用户多次请求下单__同一商户",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "XSS"
+    ],
+    "app": "nebula",
+    "expire": 1511944963597,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "POST参数包含跨站脚本攻击特征",
+    "name": "visit_xss_post_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541058470000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "IHR-单账号刷新职位不加载资源",
+    "name": "ihr_refresh_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "账号异常"
+    ],
+    "app": "nebula",
+    "expire": 1641115009223,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "UID当前登录地不是常用登录地",
+    "name": "login_U_ipgeo_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "profile"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541087443000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号搜索已投递职位不加载资源",
+    "name": "rd_rdsearch_rdapply_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, order_money_amount",
+    "name": "IP多次请求下单__不同金额",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541050484000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP搜索已投递职位不加载资源",
+    "name": "rd_rdsearch_rdapply_resource",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1609584772891,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "UID5分钟内关联多个IP地域",
+    "name": "account_M_ipgeo_5m_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541051387000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ACCOUNT",
+    "remark": "m站-单IP搜索职位不加载资源",
+    "name": "m_job_resource",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, user_name",
+    "name": "用户多次请求下单__同收货人",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "目录遍历"
+    ],
+    "app": "nebula",
+    "expire": 1543389374110,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "GET参数中包含目录遍历的特征",
+    "name": "visit_directory_traversal_get_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, order_money_amount > 100",
+    "name": "设备多次请求下单__金额较高",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, product_id",
+    "name": "用户多次请求下单__不同商品",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "取消订单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3 in 30min distinct orderid",
+    "name": "设备多次取消订单",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1523444458000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "",
+    "name": "rd_viewone2_nocookie",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543657710000,
+    "checkpoints": "",
+    "ttl": 1800,
+    "category": "ACCOUNT",
+    "remark": "RD-单IP频繁发布职位",
+    "name": "rd_jobreult_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "yifeng"
+    ],
+    "app": "nebula",
+    "expire": 7561913925440,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "",
+    "name": "visit_yfjl_viewone_nouid_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_address_city ",
+    "name": "IP多次请求下单__同一城市",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "午夜下单"
+    ],
+    "app": "nebula",
+    "expire": 1641106486953,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, 0~6",
+    "name": "用户深夜多次请求下单",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541069514000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号频繁查看发布中的职位",
+    "name": "rd_position_rate_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541041217000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号浏览简历不加载资源",
+    "name": "rd_viewone2_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "不同下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">2 in 1h, merchant",
+    "name": "用户多次请求下单__不同商户",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "高频下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">5 in 30min ",
+    "name": "设备多次请求下单",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1570183854490,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "单个IP请求的响应字节大于20MB",
+    "name": "visit_hugesize_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543658497000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁标记待沟通简历",
+    "name": "rd_setresumestate_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 1641119362858,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "DID当天关联多个IP",
+    "name": "account_M_ip_1d_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "profile"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1509502528433,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号导出简历不加载资源",
+    "name": "rd_export_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1547535043131,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "智联专属-单个UID当天搜索简历次数过多",
+    "name": "zhaopin_account_H_searchresume_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "profile"
+  },
+  {
+    "tags": [
+      "高频下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">5 in 30min",
+    "name": "用户多次请求下单",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????"
+    ],
+    "app": "nebula",
+    "expire": 1538372992000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "ihr双11获转盘页面访问频繁",
+    "name": "ihr_1111_draw_rate",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫",
+      "撞库"
+    ],
+    "app": "nebula",
+    "expire": 1672454699088,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "IP5分钟内多次访问登录页面",
+    "name": "visit_H_loginurl_5m_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_mobile",
+    "name": "设备多次请求下单__同手机号",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "账号异常"
+    ],
+    "app": "nebula",
+    "expire": 1609664566697,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "UID当前登录的IP不是常用登录IP",
+    "name": "login_U_ip_uid",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "profile"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, receiver_mobile",
+    "name": "IP多次请求下单__同手机号",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "XSS"
+    ],
+    "app": "nebula",
+    "expire": 1542789646124,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "GET参数包含跨站脚本攻击特征",
+    "name": "visit_xss_get_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1543657710000,
+    "checkpoints": "",
+    "ttl": 1800,
+    "category": "ACCOUNT",
+    "remark": "单IP频繁刷新职位",
+    "name": "rd_refresh_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, product_id",
+    "name": "IP多次请求下单__同一商品",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1535787781000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单IP导出过于频繁",
+    "name": "rd_export_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "SQL注入"
+    ],
+    "app": "nebula",
+    "expire": 1511926598593,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "POST请求中包含SQL的符号",
+    "name": "visit_sql_injection_post_hardcore_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1538358943000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号搜索职位不加载资源",
+    "name": "rd_rdsearch_resource_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541071551000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ACCOUNT",
+    "remark": "passport-单IP登录过于频繁",
+    "name": "passport_account_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1629973102000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "C端企业宣讲会报名",
+    "name": "xiaoyuan_FindFullTime_csrf",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "高频下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3, <=4页面 in 30min",
+    "name": "设备请求下单行为单一",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 1,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541071551000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ACCOUNT",
+    "remark": "m站-单IP搜索职位过于频繁",
+    "name": "m_job_rate_ip",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "RFI"
+    ],
+    "app": "nebula",
+    "expire": 1574481355701,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "GET参数中包含rfi远程文件包含的特征",
+    "name": "visit_rfi_get_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541051387000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ACCOUNT",
+    "remark": "m站-单IP搜索职位不加载资源",
+    "name": "m_search_resource",
+    "checkvalue": "c_ip",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "关联下单"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">3 设备 in 30min",
+    "name": "IP多设备请求下单",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "特殊下单"
+    ],
+    "app": "nebula",
+    "expire": 1641020242748,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">1000 in 5m",
+    "name": "用户请求下单__金额较大5m",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "SQL注入"
+    ],
+    "app": "nebula",
+    "expire": 1543374617253,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "GET参数中的包含SQL语句特征",
+    "name": "visit_sql_injection_get_ip",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "简历爬虫"
+    ],
+    "app": "nebula",
+    "expire": 1541045942000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "单账号登录不加载资源",
+    "name": "rd_login_did",
+    "checkvalue": "did",
+    "decision": "reject",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????"
+    ],
+    "app": "nebula",
+    "expire": 1538372992000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "ihr双11活动页面访问频繁",
+    "name": "ihr_1111_turntable1711_rate",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "????"
+    ],
+    "app": "nebula",
+    "expire": 1538372992000,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "VISITOR",
+    "remark": "ihr双11获转盘页面不加载资源",
+    "name": "ihr_1111_draw_behavior1",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "下单不支付"
+    ],
+    "app": "nebula",
+    "expire": 1564925159000,
+    "checkpoints": "",
+    "ttl": 3600,
+    "category": "ORDER",
+    "remark": ">4 in 30min no pay",
+    "name": "设备下单不支付",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      ""
+    ],
+    "app": "nebula",
+    "expire": 7561944836730,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ACCOUNT",
+    "remark": "DID5分钟内关联多个IP地域",
+    "name": "account_M_ipgeo_5m_did",
+    "checkvalue": "did",
+    "decision": "review",
+    "score": 0,
+    "checktype": "DeviceID",
+    "test": true,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, order_money_amount > 100",
+    "name": "用户多次请求下单__金额较高",
+    "checkvalue": "uid",
+    "decision": "review",
+    "score": 0,
+    "checktype": "USER",
+    "test": false,
+    "scope": "realtime"
+  },
+  {
+    "tags": [
+      "单一下单"
+    ],
+    "app": "nebula",
+    "expire": 1545898796395,
+    "checkpoints": "",
+    "ttl": 300,
+    "category": "ORDER",
+    "remark": ">5 in 1h, user_name",
+    "name": "IP多次请求下单__同收货人",
+    "checkvalue": "c_ip",
+    "decision": "review",
+    "score": 0,
+    "checktype": "IP",
+    "test": false,
+    "scope": "realtime"
+  }
+]

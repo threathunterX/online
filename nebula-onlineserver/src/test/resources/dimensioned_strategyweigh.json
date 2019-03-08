@@ -1,0 +1,840 @@
+{
+  "status": 0,
+  "msg": "ok",
+  "values": [
+    {
+      "category": "VISITOR",
+      "name": "visit_404_H_regist_H_count_did",
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "score": 9,
+      "checkpoints": "",
+      "test": false,
+      "expire": -1,
+      "remark": "",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "checktype": "",
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1542789646124,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "GET参数包含跨站脚本攻击特征",
+      "name": "visit_xss_get_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1630642978758,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单IP频繁注册",
+      "name": "regist_H_count_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 69,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1599194095555,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单IP尝试多次登录相同账号，密码不同",
+      "name": "login_S_account_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 69,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "爬虫"
+      ],
+      "app": "nebula",
+      "expire": 1567742108140,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP访问网站不存在合理路径(PC端)",
+      "name": "visit_N_referer_hit_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1543389374110,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "GET参数中包含目录遍历的特征",
+      "name": "visit_directory_traversal_get_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1636078380636,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "注册请求近期未加载静态资源，单独请求API(PC端)",
+      "name": "register_N_static_ip_pc",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 64,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "爬虫"
+      ],
+      "app": "nebula",
+      "expire": 1567667890800,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP请求单个动态接口",
+      "name": "visit_S_api_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1567741430556,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP大量请求不加载静态资源",
+      "name": "visit_N_staticview_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1599193689806,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单IP频繁登录",
+      "name": "login_H_count_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 69,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "目录遍历"
+      ],
+      "app": "nebula",
+      "expire": 1543389630594,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "POST参数中包含目录遍历的特征",
+      "name": "visit_directory_traversal_post_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1473997535713,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "账号累计修改密码次数大于1次",
+      "name": "account__change",
+      "checkvalue": "uid",
+      "decision": "review",
+      "score": 62,
+      "checktype": "USER",
+      "test": true,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        "RFI"
+      ],
+      "app": "nebula",
+      "expire": 1543377535967,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "POST参数中包含rfi远程文件包含的特征",
+      "name": "visit_rfi_post_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 73,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1567762665891,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单设备频繁注册",
+      "name": "register_H_count_did",
+      "checkvalue": "did",
+      "decision": "review",
+      "score": 47,
+      "checktype": "DeviceID",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1570183854490,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP请求的响应字节大于20MB",
+      "name": "visit_hugesize_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1599203703047,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "IP请求可疑文件地址",
+      "name": "visit_file_scan_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1511946643357,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "GET参数中ngx_lua_waf策略补充",
+      "name": "visit_ngx_lua_waf_get_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 11,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "盗号"
+      ],
+      "app": "nebula",
+      "expire": 1538126881557,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "账号频繁登录失败",
+      "name": "login_H_failure_uid",
+      "checkvalue": "uid",
+      "decision": "review",
+      "score": 240,
+      "checktype": "USER",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1511944963597,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "POST参数包含跨站脚本攻击特征",
+      "name": "visit_xss_post_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 511,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1477736013255,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "正则测试",
+      "name": "test",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        "爬虫"
+      ],
+      "app": "nebula",
+      "expire": 1630641533264,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP高GET请求比例",
+      "name": "visit_H_get_rate_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 23,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "撞库"
+      ],
+      "app": "nebula",
+      "expire": 1630649063053,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单IP频繁登录失败",
+      "name": "login_H_failure_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 52,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1543398183037,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "POST参数中ngx_lua_waf策略补充",
+      "name": "visit_ngx_lua_waf_post_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "SQL注入"
+      ],
+      "app": "nebula",
+      "expire": 1511926598593,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "POST请求中包含SQL的符号",
+      "name": "visit_sql_injection_post_hardcore_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "爬虫"
+      ],
+      "app": "nebula",
+      "expire": 1630640221638,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP高频http访问",
+      "name": "visit_H_count_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "XSS"
+      ],
+      "app": "nebula",
+      "expire": 1510316906379,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "导弹图测试",
+      "name": "test_monitor",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 32,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1630565831241,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "请求Useragent中包含服务器信息",
+      "name": "visit_serverua_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1484195968096,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单账号访问时切换IP",
+      "name": "login_changeip_uid",
+      "checkvalue": "uid",
+      "decision": "review",
+      "score": 15,
+      "checktype": "USER",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1630553669354,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP频繁访问登录页面",
+      "name": "visit_H_loginurl_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1543374617253,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "GET参数中的包含SQL语句特征",
+      "name": "visit_sql_injection_get_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1572574749523,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "登录请求近期未加载静态资源，单独请求API(PC端)",
+      "name": "login_N_static_ip_pc",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 53,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1574481355701,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "GET参数中包含rfi远程文件包含的特征",
+      "name": "visit_rfi_get_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 72,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1543029329330,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "POST参数中包含SQL语句特征",
+      "name": "visit_sql_injection_post_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1533203407518,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP请求页面停留时间过短(APP端)",
+      "name": "visit_S_pagestay_ip_app",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "rt"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1569570507371,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "非GET请求次数过多",
+      "name": "visit_H_method_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1570357157816,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP大量异常状态",
+      "name": "visit_abnormal_status_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 33,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1572574749523,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "登录请求近期未加载静态资源，单独请求API(PC端)",
+      "name": "策略",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 53,
+      "checktype": "IP",
+      "test": true,
+      "scope": "profile"
+    },
+    {
+      "tags": [
+        "恶意扫描"
+      ],
+      "app": "nebula",
+      "expire": 1630650711288,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "IP扫描管理后台地址",
+      "name": "visit_adminurl_scan_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1511667864319,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "GET请求中包含SQL的符号",
+      "name": "visit_sql_injection_hardcore_get_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "恶意扫描"
+      ],
+      "app": "nebula",
+      "expire": 1567737690844,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "访问.asp文件",
+      "name": "access_asp",
+      "checkvalue": "c_ip",
+      "decision": "reject",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "爬虫",
+        "撞库"
+      ],
+      "app": "nebula",
+      "expire": 1535698246111,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP高POST请求比例",
+      "name": "visit_H_POST_rate_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": false,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1853306462355,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单设备频繁登录失败",
+      "name": "login_H_failure_did",
+      "checkvalue": "did",
+      "decision": "review",
+      "score": 69,
+      "checktype": "DeviceID",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1599107101650,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单IP尝试多次登录不同账号，密码相同",
+      "name": "login_S_password_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 74,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1601536565959,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP访问相同的数据包大小",
+      "name": "visit_S_package_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "XSS"
+      ],
+      "app": "nebula",
+      "expire": 1630649840283,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "请求疑似xss",
+      "name": "visit_xss_request_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1630476816417,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP大量404请求",
+      "name": "visit_H_404_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 20,
+      "checktype": "IP",
+      "test": false,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        "恶意注册"
+      ],
+      "app": "nebula",
+      "expire": 1599192330900,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "单IP频繁注册同密码账号",
+      "name": "regist_S_password_ip",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 48,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1630464019052,
+      "checkpoints": "",
+      "category": "ACCOUNT",
+      "remark": "uid报警次数过多",
+      "name": "alarm_toomany_uid",
+      "checkvalue": "uid",
+      "decision": "review",
+      "score": 69,
+      "checktype": "USER",
+      "test": true,
+      "scope": "profile"
+    },
+    {
+      "tags": [
+        ""
+      ],
+      "app": "nebula",
+      "expire": 1572687310426,
+      "checkpoints": "",
+      "category": "VISITOR",
+      "remark": "单IP请求页面停留时间过短(PC端)",
+      "name": "visit_S_pagestay_ip_pc",
+      "checkvalue": "c_ip",
+      "decision": "review",
+      "score": 9,
+      "checktype": "IP",
+      "test": true,
+      "scope": "realtime"
+    }
+  ]
+}
