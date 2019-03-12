@@ -22,14 +22,6 @@
             <groupId>com.threathunter.nebula</groupId>
             <artifactId>nebula-common</artifactId>
         </dependency>
-        
-        <!--
-        <dependency>
-            <groupId>com.threathunter.nebula</groupId>
-            <artifactId>nebula-testt</artifactId>
-        </dependency>
-        -->
-        
         <dependency>
             <groupId>com.threathunter.greyhound</groupId>
             <artifactId>greyhound-server</artifactId>
