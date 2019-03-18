@@ -11,7 +11,7 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by daisy on 17/4/24.
+ * 
  */
 public class DelayQueueTest {
     @Test

@@ -21,7 +21,7 @@
 //import static java.nio.file.FileVisitResult.TERMINATE;
 //
 ///**
-// * Created by daisy on 16/6/6.
+// * 
 // */
 //public class OfflineHelper {
 //    public static String ensureAndGetHourPersistDir(long currentTimestamp) {

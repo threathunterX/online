@@ -28,7 +28,7 @@ import java.util.Map;
  * ?? bytes for properties following their values.
  * (8-total_size%8) bytes for filling check code: -57
  *
- * Created by daisy on 18-1-20
+ * 
  */
 public class EventReader {
     public static final int NO_MATCH = -1;

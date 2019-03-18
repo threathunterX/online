@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by daisy on 17/8/3.
+ * 
  */
 public class RiskInfoQueryTest {
     public static void main(final String[] args) throws RemoteException, InterruptedException {

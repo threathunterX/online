@@ -16,7 +16,7 @@
 //import java.util.List;
 //
 ///**
-// * Created by daisy on 16/5/12.
+// * 
 // */
 //public class VariableNodeGenerateHelper {
 //

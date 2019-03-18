@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentMap;
 /**
  * For each class, we have a unique SharedObjectPool.
  *
- * Created by wenlu on 13-12-25.
+ * 
  */
 public class SharedObjectPoolManager {
     private static ConcurrentMap<Class<?>, SharedObjectPool> maps = new

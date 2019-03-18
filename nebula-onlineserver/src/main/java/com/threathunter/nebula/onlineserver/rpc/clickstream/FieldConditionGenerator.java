@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by daisy on 17/4/30.
+ * 
  */
 public class FieldConditionGenerator {
     private static Map<String, ConditionMaker> generatorMap;

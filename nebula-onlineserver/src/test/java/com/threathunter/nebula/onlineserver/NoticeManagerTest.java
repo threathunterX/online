@@ -16,7 +16,7 @@
 //import java.util.*;
 //
 ///**
-// * Created by daisy on 16/11/17.
+// * 
 // */
 //@RunWith(PowerMockRunner.class)
 //@PrepareForTest({ProfileNoticeChecker.class, NoticeSender.class})

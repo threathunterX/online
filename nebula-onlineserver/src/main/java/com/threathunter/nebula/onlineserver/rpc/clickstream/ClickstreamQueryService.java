@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Will cache offset of a key, because index does not contains offsets
  *
- * Created by daisy on 16/9/1.
+ * 
  */
 public class ClickstreamQueryService implements Service {
     private static final Logger LOGGER = LoggerFactory.getLogger(ClickstreamQueryService.class);

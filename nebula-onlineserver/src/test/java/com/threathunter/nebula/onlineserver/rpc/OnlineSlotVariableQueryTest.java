@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by daisy on 17-12-5
+ * 
  */
 public class OnlineSlotVariableQueryTest {
     private OnlineVariableQuerySender querySender;

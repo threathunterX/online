@@ -15,7 +15,7 @@ import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
- * Created by daisy on 16/9/10.
+ * 
  */
 public class ProfileWriter {
     private static final Logger logger = LoggerFactory.getLogger(ProfileWriter.class);

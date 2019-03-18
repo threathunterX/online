@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by daisy on 16/11/3.
+ * 
  */
 public class RiskEventsInfoQueryService implements Service {
     private static final Logger logger = LoggerFactory.getLogger(RiskEventsInfoQueryService.class);

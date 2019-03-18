@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentMap;
 /**
  * Helper to store only one instance of objects with the same value.
  *
- * * Created by wenlu on 13-12-25.
+ * * 
  */
 public class SharedObjectPool<T> {
     private final ConcurrentMap<Reference<T>, Reference<T>> map = new

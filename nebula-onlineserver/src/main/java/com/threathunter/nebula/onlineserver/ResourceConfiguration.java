@@ -1,7 +1,7 @@
 package com.threathunter.nebula.onlineserver;
 
 /**
- * Created by daisy on 17-11-15
+ * 
  */
 public class ResourceConfiguration {
     private long onlinePollingIntervalInMillis;

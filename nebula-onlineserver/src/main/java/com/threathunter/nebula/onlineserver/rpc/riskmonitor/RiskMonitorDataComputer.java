@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * Created by daisy on 17-11-15
+ * 
  */
 public class RiskMonitorDataComputer {
     private static final Logger LOGGER = LoggerFactory.getLogger(RiskMonitorDataComputer.class);

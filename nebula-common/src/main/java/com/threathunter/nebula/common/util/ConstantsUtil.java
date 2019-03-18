@@ -1,7 +1,7 @@
 package com.threathunter.nebula.common.util;
 
 /**
- * Created by daisy on 17/2/28.
+ * 
  */
 public class ConstantsUtil {
     public static final String CUSTOMER_CLOCK = "customer_clock";

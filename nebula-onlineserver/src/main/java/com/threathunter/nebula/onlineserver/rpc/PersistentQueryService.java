@@ -22,7 +22,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by yy on 17-8-22.
+ * 
  */
 public class PersistentQueryService implements Service {
 

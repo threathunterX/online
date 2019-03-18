@@ -24,7 +24,7 @@
 //import java.util.concurrent.TimeUnit;
 //
 ///**
-// * Created by daisy on 16/8/31.
+// * 
 // */
 //@RunWith(PowerMockRunner.class)
 //@PrepareForTest(SlotComputeManager.class)

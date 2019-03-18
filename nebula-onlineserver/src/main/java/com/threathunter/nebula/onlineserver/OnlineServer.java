@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
- * Created by daisy on 16/9/1.
+ * 
  */
 public class OnlineServer {
     private static final Logger LOGGER = LoggerFactory.getLogger(OnlineServer.class);

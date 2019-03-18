@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 /**
- * Created by daisy on 17/4/13.
+ * 
  */
 public class EventsGrouper {
     private final TreeMap<Long, List<Event>> timedGroupMap = new TreeMap<>();

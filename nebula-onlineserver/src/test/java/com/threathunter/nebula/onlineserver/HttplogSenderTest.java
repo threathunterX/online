@@ -17,7 +17,7 @@
 //import java.util.concurrent.TimeUnit;
 //
 ///**
-// * Created by daisy on 17/5/6.
+// * 
 // */
 //public class HttplogSenderTest {
 //

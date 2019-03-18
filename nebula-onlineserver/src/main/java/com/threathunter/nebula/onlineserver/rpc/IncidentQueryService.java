@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /**
- * Created by daisy on 16/5/27.
+ * 
  */
 public class IncidentQueryService implements Service {
     private static final Logger logger = LoggerFactory.getLogger(IncidentQueryService.class);

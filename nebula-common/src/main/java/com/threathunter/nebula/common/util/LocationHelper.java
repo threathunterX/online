@@ -3,7 +3,7 @@ package com.threathunter.nebula.common.util;
 import com.threathunter.geo.GeoUtil;
 
 /**
- * Created by daisy on 16-1-18.
+ * 
  */
 public class LocationHelper {
 

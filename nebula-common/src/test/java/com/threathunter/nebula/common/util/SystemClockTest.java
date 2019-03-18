@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Created by daisy on 17/2/28.
+ * 
  */
 public class SystemClockTest {
 

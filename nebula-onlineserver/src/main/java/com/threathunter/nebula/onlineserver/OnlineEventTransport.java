@@ -25,7 +25,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import static com.threathunter.bordercollie.slot.util.SlotUtils.slotTimestampFormat;
 
 /**
- * Created by daisy on 17/4/24.
+ * 
  */
 public class OnlineEventTransport {
     private static final Logger LOGGER = LoggerFactory.getLogger(OnlineEventTransport.class);

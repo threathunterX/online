@@ -4,7 +4,7 @@ import com.threathunter.greyhound.server.utils.StrategyInfoCache;
 import com.threathunter.model.Event;
 
 /**
- * Created by daisy on 17/4/30.
+ * 
  */
 public abstract class FieldCondition {
     protected String propertyName;

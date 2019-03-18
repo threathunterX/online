@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
 
 
 /**
- * Created by wenlu on 13-12-25.
+ * 
  */
 public class SharedInternTest {
 

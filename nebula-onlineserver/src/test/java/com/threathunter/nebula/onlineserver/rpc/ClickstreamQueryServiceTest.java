@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by daisy on 16/9/2.
+ * 
  */
 public class ClickstreamQueryServiceTest {
     private FakeClickstreamQueryService service;

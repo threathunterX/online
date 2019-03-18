@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by daisy on 17/5/25.
+ * 
  */
 public class RealtimeGlobalQueryService implements Service {
     private static final Logger LOGGER = LoggerFactory.getLogger(RealtimeGlobalQueryService.class);

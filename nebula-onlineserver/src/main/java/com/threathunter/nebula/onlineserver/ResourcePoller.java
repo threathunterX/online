@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lw on 2015/5/11.
+ * 
  */
 public class ResourcePoller {
     private static final Logger logger = LoggerFactory.getLogger(ResourcePoller.class);
